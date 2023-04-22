@@ -104,7 +104,9 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+                <version>2.2.2.RELEASE</version>
                 <configuration>
+                    <mainClass>com.meethere.MeetHereApplication</mainClass>
                     <fork>true</fork>
                 </configuration>
             </plugin>

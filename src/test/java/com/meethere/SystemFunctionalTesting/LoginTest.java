@@ -15,7 +15,7 @@ public class LoginTest extends BaseTest {
   @Order(1)
   @Test
   public void login_success_user() {
-    driver.get("http://localhost:8888/index");
+    driver.get("http://localhost:8080/index");
     assertThat(driver.getTitle(), is("MeetHere"));
     driver.findElement(By.linkText("登录")).click();
     assertThat(driver.getTitle(), is("登录-MeetHere"));
